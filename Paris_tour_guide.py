@@ -4,8 +4,8 @@ from openai import OpenAI
 # Define the model to use
 model = "gpt-4o-mini"
 
-# Define the client
-client = OpenAI()
+# Define the client using your api_key
+client = OpenAI(api_key="api_key")
 
 # Define three questions from tourists
 tourist_questions = ["How far away is the Louvre from the Eiffel Tower (in miles) if you are driving?","Where is the Arc de Triomphe?","What are the must-see artworks at the Louvre Museum?"]
