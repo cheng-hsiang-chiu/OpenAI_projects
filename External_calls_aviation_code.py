@@ -1,5 +1,6 @@
 from openai import OpenAI
 import json
+import requests
 
 client = OpenAI(api_key="<OPENAI_API_TOKEN>")
 
@@ -17,6 +18,15 @@ function_definition = [{"type": "function",
                                      }
                        }
                       ]
+
+# A template, TODO : Need to modify
+def get_airport_info(keyword):
+  url = "https://api.artic.edu/api/v1/artworks/search"    
+  querystring = {"q":keyword}    
+  response = requests.request("GET", url, params=querystring)
+  return response.text
+
+
 
 
 # Call the Chat Completions endpoint 
