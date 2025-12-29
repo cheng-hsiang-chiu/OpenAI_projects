@@ -6,3 +6,4 @@
 * Using_chromadb_for_movie_embedding.py : Using OpenAI and chromadb to implement vector database for a movie embedding 
 * Querying_the_Netflix_collection.py : Using OpenAI and chromadb to implment a netflix vector database for a movie query 
 * Querying_the_Netflix_collection_with_multiple_texts.py : Using OpenAI and chromadb to implment a netflix vector database for multiple movie queries and with metadatas query
+* Topic_Analysis_of_Clothing_Reviews_with_Embeddings.py : Using OpenAI to analyze reviews from the Women's Clothing E-Commerce Reviews dataset
