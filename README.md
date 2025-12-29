@@ -3,4 +3,5 @@
 * Finding_the_most_similar_product.py : Using OpenAI to perform semantic search 
 * Product_recommendation_system.py : Using OpenAI to implement a product recommendation system
 * Embeddings_for_classification_tasks.py : Using OpenAI to implement a sentiment analysis for restaurant reviews
-* Using_chromadb_for_movie_embedding.py : Using OpenAI and chromadb to implement vector database for a move embedding 
+* Using_chromadb_for_movie_embedding.py : Using OpenAI and chromadb to implement vector database for a movie embedding 
+* Querying_the_Netflix_collection.py : Using OpenAI and chromadb to implment a netflix vector database for a movie query 
