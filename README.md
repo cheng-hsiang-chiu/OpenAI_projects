@@ -5,3 +5,4 @@
 * Embeddings_for_classification_tasks.py : Using OpenAI to implement a sentiment analysis for restaurant reviews
 * Using_chromadb_for_movie_embedding.py : Using OpenAI and chromadb to implement vector database for a movie embedding 
 * Querying_the_Netflix_collection.py : Using OpenAI and chromadb to implment a netflix vector database for a movie query 
+* Querying_the_Netflix_collection_with_multiple_texts.py : Using OpenAI and chromadb to implment a netflix vector database for multiple movie queries and with metadatas query
