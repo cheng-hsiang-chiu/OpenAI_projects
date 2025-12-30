@@ -90,7 +90,7 @@ review_embeddings_db.add(
 )
 
 # Function for similarity search using vector db query function
-def find_similar_reviews(input_text, vector_db, n=3):
+def find_similar_reviews(input_text, n=3):
     collection = client.get_collection(
         name="review_embeddings",
         embedding_function=OpenAIEmbeddingFunction(model_name="text-embedding-3-small", api_key=os.environ["OPENAI_API_KEY"]))
@@ -102,7 +102,7 @@ def find_similar_reviews(input_text, vector_db, n=3):
 
 # Example feedback and finding similar feedback
 example_review = "Absolutely wonderful - silky and sexy and comfortable"
-most_similar_reviews = find_similar_reviews(example_review, review_embeddings_db, 3)["documents"][0]
+most_similar_reviews = find_similar_reviews(example_review, 3)["documents"][0]
 print(most_similar_reviews)
 
 # Clean up
