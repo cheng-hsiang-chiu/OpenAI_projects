@@ -8,3 +8,4 @@
 * Querying_the_Netflix_collection_with_multiple_texts.py : Using OpenAI and chromadb to implment a netflix vector database for multiple movie queries and with metadatas query
 * Topic_Analysis_of_Clothing_Reviews_with_Embeddings.py : Using OpenAI to analyze reviews from the Women's Clothing E-Commerce Reviews dataset
 * Semantic_search_engine_using_Pinecone.py : Using OpenAI and vector database, Pinecone, to implement a semantic search engine
+* RAG_chatbot_with_Pinecone.py : Using OpenAi and vector database, Pinecone, to implement a RAG chatbot
