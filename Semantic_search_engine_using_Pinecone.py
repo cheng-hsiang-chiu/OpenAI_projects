@@ -22,6 +22,15 @@ pc.create_index(
 # Connect to the index
 index = pc.Index("semantic-search")
 
+
+# squad_dataset.csv has the following content
+# | id | text                                              | title             | 
+# | 1  | Architecturally, the school has a Catholic cha... | University of ... |
+# | 2  | The College of Engineering was established in.... | University of ... |
+# | 3  | Following the disbandment of Destiny's Child in.. | Beyonce |
+# | 4  | Architecturally, the school has a Catholic cha... | University of ... |
+
+
 df = pd.read_csv("squad_dataset.csv")
 
 batch_limit = 100
